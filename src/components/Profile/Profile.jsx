@@ -5,7 +5,7 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
         <div>
           <img src={avatar} alt={tag} />
           <p>{username}</p>
-          <p>{tag}</p>
+          <p>@{tag}</p>
           <p>{location}</p>
         </div>
         <ul>
