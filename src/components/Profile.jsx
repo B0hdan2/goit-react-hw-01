@@ -1,10 +1,10 @@
-const Profile = ({ name, tag, location, image, stats }) => {
+const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <>
       <div>
         <div>
-          <img src={image} alt={tag} />
-          <p>{name}</p>
+          <img src={avatar} alt={tag} />
+          <p>{username}</p>
           <p>{tag}</p>
           <p>{location}</p>
         </div>
