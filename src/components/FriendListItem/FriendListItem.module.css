@@ -1,15 +1,18 @@
-.img{
-width: 100px;
-margin-bottom: 10px;
+.img {
+    width: 100px;
+    margin-bottom: 10px;
 }
-.title{
+
+.title {
     font-weight: 500;
     font-size: 30px;
-    margin-bottom:3px;
+    margin-bottom: 3px;
 }
-.text{
+
+.text {
     color: rgb(5, 211, 5);
 }
-.textRed{
+
+.textRed {
     color: red;
 }
